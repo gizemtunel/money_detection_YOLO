@@ -1,16 +1,19 @@
-# para_sayar
+Para Tanıma ve Sayma Projesi (Money Detection)
 
-A new Flutter project.
+Bu proje, YOLOv8 modeli kullanılarak Türk Lirası banknotlarını tanıyan ve Flutter ile geliştirilen bir mobil uygulama projesidir.
 
-## Getting Started
+Model ve Analiz Sonuçları
+Projenin analiz aşamaları ve model başarı metrikleri aşağıdadır:
 
-This project is a starting point for a Flutter application.
+| Karmaşıklık Matrisi | Eğitim Sonuçları |
+| :---: | :---: |
+| <img src="assets/confusion_matrix_yolo.png" width="400"> | <img src="assets/results_yolo.png" width="400"> |
 
-A few resources to get you started if this is your first Flutter project:
+| Veri Seti Etiketleri | Örnek Tespit |
+| :---: | :---: |
+| <img src="assets/labels_yolo.jpg" width="400"> | <img src="assets/examp_yolo.jpg" width="400"> |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kullanılan Teknolojiler
+* **Yapay Zeka:** YOLOv8 (Object Detection)
+* **Mobil:** Flutter & Dart
+* **Analiz:** Python (Jupyter Notebook - .ipynb)
