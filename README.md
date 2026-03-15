@@ -1,4 +1,4 @@
-Para Tanıma ve Sayma Projesi (Money Detection)
+## Para Tanıma ve Sayma Projesi (Money Detection)
 
 Bu proje, YOLOv8 modeli kullanılarak Türk Lirası banknotlarını tanıyan ve Flutter ile geliştirilen bir mobil uygulama projesidir.
 
