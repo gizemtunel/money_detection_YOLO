@@ -1,0 +1,43 @@
+name: para_sayar
+description: "Kamera üzerinden para sayan yapay zeka uygulaması."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Görsel işleme
+  image: ^4.1.3
+
+  # Simge paketi
+  cupertino_icons: ^1.0.8
+
+  # Kamera erişimi
+  camera: ^0.10.5+5
+
+  # .tflite modelini çalıştırmak için (Güncel ve Hata vermeyen sürüm)
+  tflite_flutter: ^0.10.4
+
+  # Dosya yolları için gerekli
+  path_provider: ^2.1.1
+  path: ^1.8.3
+
+  # İzin yönetimi
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Model dosyanı buraya tanıtıyoruz
+  assets:
+    - assets/best_float16.tflite
